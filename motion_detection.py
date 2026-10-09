@@ -1,9 +1,5 @@
 import cv2
 
-# ==============================
-# SETTINGS
-# ==============================
-
 CAMERA_INDEX = 0
 MIN_AREA = 1000
 THRESHOLD_VALUE = 25
