@@ -16,6 +16,15 @@ The system compares consecutive video frames and identifies areas where signific
 - Detect contours.
 - Display bounding boxes around moving regions.
 
+### Features
+
+- Real-time motion detection using a webcam.
+- Moving object detection using frame comparison or background subtraction.
+- Bounding boxes around detected moving objects.
+- Live video display with motion detection results.
+- Video file support, if implemented.
+- Simple and beginner-friendly interface.
+
 ### Computer Vision Topics Used
 
 1. Image Operations
@@ -38,7 +47,44 @@ The system compares consecutive video frames and identifies areas where signific
 
 ### Installation
 
-Clone the repository:
+### 1. Clone the Repository
+
+Download the project from GitHub by running:
 
 ```bash
-git clone URL
+git clone https://github.com/johnpaultoyco-png/Motion-Detection-and-Object-Tracking-System.git
+```
+
+### 2. Open the Project Folder
+
+```bash
+cd Motion-Detection-and-Object-Tracking-System
+```
+
+### 3. Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### 4. Activate the Virtual Environment
+
+For Windows PowerShell:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+### 5. Install the Dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 6. Run the Application
+
+```bash
+python motion_detection.py
+```
+
+**Note:** Replace `motion_detection.py` with your actual Python filename if it is different.
